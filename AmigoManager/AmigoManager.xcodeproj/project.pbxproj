@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B32C480E1B7084FF008EDFC1 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C480D1B7084FF008EDFC1 /* DashboardViewController.m */; };
+		B359EF701B72C2FD007C34B7 /* OrderOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B359EF6F1B72C2FD007C34B7 /* OrderOptionViewController.m */; };
+		B359EF761B72D30C007C34B7 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B359EF751B72D30C007C34B7 /* OrderViewController.m */; };
+		B359EF7E1B740F56007C34B7 /* TopLeftSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = B359EF7D1B740F56007C34B7 /* TopLeftSubView.m */; };
+		B374DC1F1B7158B2004D697F /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B374DC1E1B7158B2004D697F /* NavigationViewController.m */; };
+		B3A13A6D1B71BAC200EE2128 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A13A6C1B71BAC200EE2128 /* SWRevealViewController.m */; };
+		B3A13A701B71BBAF00EE2128 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A13A6F1B71BBAF00EE2128 /* SidebarViewController.m */; };
+		B3BF52A91B6FCF0500F4B497 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BF52A81B6FCF0500F4B497 /* main.m */; };
+		B3BF52AC1B6FCF0500F4B497 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BF52AB1B6FCF0500F4B497 /* AppDelegate.m */; };
+		B3BF52B21B6FCF0500F4B497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BF52B01B6FCF0500F4B497 /* Main.storyboard */; };
+		B3BF52B41B6FCF0500F4B497 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BF52B31B6FCF0500F4B497 /* Images.xcassets */; };
+		B3BF52B71B6FCF0500F4B497 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3BF52B51B6FCF0500F4B497 /* LaunchScreen.xib */; };
+		B3BF52C31B6FCF0500F4B497 /* AmigoManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BF52C21B6FCF0500F4B497 /* AmigoManagerTests.m */; };
+		B3BF52D01B6FCFEB00F4B497 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF52CF1B6FCFEB00F4B497 /* Parse.framework */; };
+		B3BF52D21B6FCFF700F4B497 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF52D11B6FCFF700F4B497 /* Bolts.framework */; };
+		B3BF52D41B6FD02300F4B497 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF52D31B6FD02300F4B497 /* AudioToolbox.framework */; };
+		B3BF52D61B6FD02900F4B497 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF52D51B6FD02900F4B497 /* CFNetwork.framework */; };
+		B3BF52D81B6FD02F00F4B497 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF52D71B6FD02F00F4B497 /* CoreGraphics.framework */; };
+		B3BF52DA1B6FD03400F4B497 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF52D91B6FD03400F4B497 /* CoreLocation.framework */; };
+		B3BF52DC1B6FD03A00F4B497 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF52DB1B6FD03A00F4B497 /* QuartzCore.framework */; };
+		B3BF52DE1B6FD04100F4B497 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF52DD1B6FD04100F4B497 /* Security.framework */; };
+		B3BF52E01B6FD04600F4B497 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF52DF1B6FD04600F4B497 /* StoreKit.framework */; };
+		B3BF52E21B6FD04F00F4B497 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF52E11B6FD04F00F4B497 /* SystemConfiguration.framework */; };
+		B3BF52E41B6FD05500F4B497 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF52E31B6FD05500F4B497 /* libz.dylib */; };
+		B3BF52E61B6FD05C00F4B497 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF52E51B6FD05C00F4B497 /* libsqlite3.dylib */; };
+		B3BF52E91B6FDF3E00F4B497 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BF52E81B6FDF3E00F4B497 /* LoginViewController.m */; };
+		B3BF52EB1B6FE50F00F4B497 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF52EA1B6FE50F00F4B497 /* ParseUI.framework */; };
+		B3BF52ED1B6FE64C00F4B497 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF52EC1B6FE64C00F4B497 /* Social.framework */; };
+		B3BF52EF1B6FE68600F4B497 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF52EE1B6FE68600F4B497 /* Accounts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3BF52BD1B6FCF0500F4B497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3BF529B1B6FCF0500F4B497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3BF52A21B6FCF0500F4B497;
+			remoteInfo = AmigoManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B32C480C1B7084FF008EDFC1 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		B32C480D1B7084FF008EDFC1 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		B359EF6E1B72C2FD007C34B7 /* OrderOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderOptionViewController.h; sourceTree = "<group>"; };
+		B359EF6F1B72C2FD007C34B7 /* OrderOptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderOptionViewController.m; sourceTree = "<group>"; };
+		B359EF741B72D30C007C34B7 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		B359EF751B72D30C007C34B7 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		B359EF7C1B740F56007C34B7 /* TopLeftSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopLeftSubView.h; sourceTree = "<group>"; };
+		B359EF7D1B740F56007C34B7 /* TopLeftSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopLeftSubView.m; sourceTree = "<group>"; };
+		B374DC1D1B7158B2004D697F /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		B374DC1E1B7158B2004D697F /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		B3A13A6B1B71BAC200EE2128 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		B3A13A6C1B71BAC200EE2128 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		B3A13A6E1B71BBAF00EE2128 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		B3A13A6F1B71BBAF00EE2128 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		B3BF52A31B6FCF0500F4B497 /* AmigoManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmigoManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BF52A71B6FCF0500F4B497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3BF52A81B6FCF0500F4B497 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3BF52AA1B6FCF0500F4B497 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3BF52AB1B6FCF0500F4B497 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3BF52B11B6FCF0500F4B497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3BF52B31B6FCF0500F4B497 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3BF52B61B6FCF0500F4B497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B3BF52BC1B6FCF0500F4B497 /* AmigoManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmigoManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BF52C11B6FCF0500F4B497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3BF52C21B6FCF0500F4B497 /* AmigoManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmigoManagerTests.m; sourceTree = "<group>"; };
+		B3BF52CF1B6FCFEB00F4B497 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		B3BF52D11B6FCFF700F4B497 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		B3BF52D31B6FD02300F4B497 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B3BF52D51B6FD02900F4B497 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B3BF52D71B6FD02F00F4B497 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3BF52D91B6FD03400F4B497 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B3BF52DB1B6FD03A00F4B497 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B3BF52DD1B6FD04100F4B497 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B3BF52DF1B6FD04600F4B497 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B3BF52E11B6FD04F00F4B497 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B3BF52E31B6FD05500F4B497 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B3BF52E51B6FD05C00F4B497 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B3BF52E71B6FDF3E00F4B497 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B3BF52E81B6FDF3E00F4B497 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B3BF52EA1B6FE50F00F4B497 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		B3BF52EC1B6FE64C00F4B497 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		B3BF52EE1B6FE68600F4B497 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3BF52A01B6FCF0500F4B497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BF52EF1B6FE68600F4B497 /* Accounts.framework in Frameworks */,
+				B3BF52ED1B6FE64C00F4B497 /* Social.framework in Frameworks */,
+				B3BF52E61B6FD05C00F4B497 /* libsqlite3.dylib in Frameworks */,
+				B3BF52E41B6FD05500F4B497 /* libz.dylib in Frameworks */,
+				B3BF52E21B6FD04F00F4B497 /* SystemConfiguration.framework in Frameworks */,
+				B3BF52E01B6FD04600F4B497 /* StoreKit.framework in Frameworks */,
+				B3BF52DE1B6FD04100F4B497 /* Security.framework in Frameworks */,
+				B3BF52DC1B6FD03A00F4B497 /* QuartzCore.framework in Frameworks */,
+				B3BF52DA1B6FD03400F4B497 /* CoreLocation.framework in Frameworks */,
+				B3BF52D81B6FD02F00F4B497 /* CoreGraphics.framework in Frameworks */,
+				B3BF52D61B6FD02900F4B497 /* CFNetwork.framework in Frameworks */,
+				B3BF52D41B6FD02300F4B497 /* AudioToolbox.framework in Frameworks */,
+				B3BF52D01B6FCFEB00F4B497 /* Parse.framework in Frameworks */,
+				B3BF52D21B6FCFF700F4B497 /* Bolts.framework in Frameworks */,
+				B3BF52EB1B6FE50F00F4B497 /* ParseUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BF52B91B6FCF0500F4B497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B359EF771B72D325007C34B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B359EF781B72D331007C34B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B3A13A6A1B71BAA700EE2128 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B3A13A6B1B71BAC200EE2128 /* SWRevealViewController.h */,
+				B3A13A6C1B71BAC200EE2128 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		B3BF529A1B6FCF0500F4B497 = {
+			isa = PBXGroup;
+			children = (
+				B3BF52A51B6FCF0500F4B497 /* AmigoManager */,
+				B3BF52BF1B6FCF0500F4B497 /* AmigoManagerTests */,
+				B3BF52A41B6FCF0500F4B497 /* Products */,
+				B3BF52CE1B6FCF7900F4B497 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3BF52A41B6FCF0500F4B497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF52A31B6FCF0500F4B497 /* AmigoManager.app */,
+				B3BF52BC1B6FCF0500F4B497 /* AmigoManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3BF52A51B6FCF0500F4B497 /* AmigoManager */ = {
+			isa = PBXGroup;
+			children = (
+				B359EF781B72D331007C34B7 /* Model */,
+				B359EF771B72D325007C34B7 /* Controllers */,
+				B3A13A6A1B71BAA700EE2128 /* SWRevealViewController */,
+				B3BF52AA1B6FCF0500F4B497 /* AppDelegate.h */,
+				B3BF52AB1B6FCF0500F4B497 /* AppDelegate.m */,
+				B3BF52E71B6FDF3E00F4B497 /* LoginViewController.h */,
+				B3BF52E81B6FDF3E00F4B497 /* LoginViewController.m */,
+				B3BF52B01B6FCF0500F4B497 /* Main.storyboard */,
+				B3BF52B31B6FCF0500F4B497 /* Images.xcassets */,
+				B3BF52B51B6FCF0500F4B497 /* LaunchScreen.xib */,
+				B32C480C1B7084FF008EDFC1 /* DashboardViewController.h */,
+				B32C480D1B7084FF008EDFC1 /* DashboardViewController.m */,
+				B374DC1D1B7158B2004D697F /* NavigationViewController.h */,
+				B374DC1E1B7158B2004D697F /* NavigationViewController.m */,
+				B3A13A6E1B71BBAF00EE2128 /* SidebarViewController.h */,
+				B3A13A6F1B71BBAF00EE2128 /* SidebarViewController.m */,
+				B359EF6E1B72C2FD007C34B7 /* OrderOptionViewController.h */,
+				B359EF6F1B72C2FD007C34B7 /* OrderOptionViewController.m */,
+				B359EF741B72D30C007C34B7 /* OrderViewController.h */,
+				B359EF751B72D30C007C34B7 /* OrderViewController.m */,
+				B3BF52A61B6FCF0500F4B497 /* Supporting Files */,
+				B359EF7C1B740F56007C34B7 /* TopLeftSubView.h */,
+				B359EF7D1B740F56007C34B7 /* TopLeftSubView.m */,
+			);
+			path = AmigoManager;
+			sourceTree = "<group>";
+		};
+		B3BF52A61B6FCF0500F4B497 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF52A71B6FCF0500F4B497 /* Info.plist */,
+				B3BF52A81B6FCF0500F4B497 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3BF52BF1B6FCF0500F4B497 /* AmigoManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF52C21B6FCF0500F4B497 /* AmigoManagerTests.m */,
+				B3BF52C01B6FCF0500F4B497 /* Supporting Files */,
+			);
+			path = AmigoManagerTests;
+			sourceTree = "<group>";
+		};
+		B3BF52C01B6FCF0500F4B497 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF52C11B6FCF0500F4B497 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3BF52CE1B6FCF7900F4B497 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF52EE1B6FE68600F4B497 /* Accounts.framework */,
+				B3BF52EC1B6FE64C00F4B497 /* Social.framework */,
+				B3BF52EA1B6FE50F00F4B497 /* ParseUI.framework */,
+				B3BF52E51B6FD05C00F4B497 /* libsqlite3.dylib */,
+				B3BF52E31B6FD05500F4B497 /* libz.dylib */,
+				B3BF52E11B6FD04F00F4B497 /* SystemConfiguration.framework */,
+				B3BF52DF1B6FD04600F4B497 /* StoreKit.framework */,
+				B3BF52DD1B6FD04100F4B497 /* Security.framework */,
+				B3BF52DB1B6FD03A00F4B497 /* QuartzCore.framework */,
+				B3BF52D91B6FD03400F4B497 /* CoreLocation.framework */,
+				B3BF52D71B6FD02F00F4B497 /* CoreGraphics.framework */,
+				B3BF52D51B6FD02900F4B497 /* CFNetwork.framework */,
+				B3BF52D31B6FD02300F4B497 /* AudioToolbox.framework */,
+				B3BF52D11B6FCFF700F4B497 /* Bolts.framework */,
+				B3BF52CF1B6FCFEB00F4B497 /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3BF52A21B6FCF0500F4B497 /* AmigoManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3BF52C61B6FCF0500F4B497 /* Build configuration list for PBXNativeTarget "AmigoManager" */;
+			buildPhases = (
+				B3BF529F1B6FCF0500F4B497 /* Sources */,
+				B3BF52A01B6FCF0500F4B497 /* Frameworks */,
+				B3BF52A11B6FCF0500F4B497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmigoManager;
+			productName = AmigoManager;
+			productReference = B3BF52A31B6FCF0500F4B497 /* AmigoManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3BF52BB1B6FCF0500F4B497 /* AmigoManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3BF52C91B6FCF0500F4B497 /* Build configuration list for PBXNativeTarget "AmigoManagerTests" */;
+			buildPhases = (
+				B3BF52B81B6FCF0500F4B497 /* Sources */,
+				B3BF52B91B6FCF0500F4B497 /* Frameworks */,
+				B3BF52BA1B6FCF0500F4B497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3BF52BE1B6FCF0500F4B497 /* PBXTargetDependency */,
+			);
+			name = AmigoManagerTests;
+			productName = AmigoManagerTests;
+			productReference = B3BF52BC1B6FCF0500F4B497 /* AmigoManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3BF529B1B6FCF0500F4B497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Carl Pan";
+				TargetAttributes = {
+					B3BF52A21B6FCF0500F4B497 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 7342G8MWV7;
+					};
+					B3BF52BB1B6FCF0500F4B497 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B3BF52A21B6FCF0500F4B497;
+					};
+				};
+			};
+			buildConfigurationList = B3BF529E1B6FCF0500F4B497 /* Build configuration list for PBXProject "AmigoManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3BF529A1B6FCF0500F4B497;
+			productRefGroup = B3BF52A41B6FCF0500F4B497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3BF52A21B6FCF0500F4B497 /* AmigoManager */,
+				B3BF52BB1B6FCF0500F4B497 /* AmigoManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3BF52A11B6FCF0500F4B497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BF52B21B6FCF0500F4B497 /* Main.storyboard in Resources */,
+				B3BF52B71B6FCF0500F4B497 /* LaunchScreen.xib in Resources */,
+				B3BF52B41B6FCF0500F4B497 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BF52BA1B6FCF0500F4B497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3BF529F1B6FCF0500F4B497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BF52E91B6FDF3E00F4B497 /* LoginViewController.m in Sources */,
+				B3BF52AC1B6FCF0500F4B497 /* AppDelegate.m in Sources */,
+				B359EF701B72C2FD007C34B7 /* OrderOptionViewController.m in Sources */,
+				B374DC1F1B7158B2004D697F /* NavigationViewController.m in Sources */,
+				B359EF7E1B740F56007C34B7 /* TopLeftSubView.m in Sources */,
+				B359EF761B72D30C007C34B7 /* OrderViewController.m in Sources */,
+				B3A13A701B71BBAF00EE2128 /* SidebarViewController.m in Sources */,
+				B3BF52A91B6FCF0500F4B497 /* main.m in Sources */,
+				B32C480E1B7084FF008EDFC1 /* DashboardViewController.m in Sources */,
+				B3A13A6D1B71BAC200EE2128 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BF52B81B6FCF0500F4B497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BF52C31B6FCF0500F4B497 /* AmigoManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3BF52BE1B6FCF0500F4B497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3BF52A21B6FCF0500F4B497 /* AmigoManager */;
+			targetProxy = B3BF52BD1B6FCF0500F4B497 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3BF52B01B6FCF0500F4B497 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3BF52B11B6FCF0500F4B497 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3BF52B51B6FCF0500F4B497 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3BF52B61B6FCF0500F4B497 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3BF52C41B6FCF0500F4B497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3BF52C51B6FCF0500F4B497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3BF52C71B6FCF0500F4B497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AmigoManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3BF52C81B6FCF0500F4B497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AmigoManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3BF52CA1B6FCF0500F4B497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmigoManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmigoManager.app/AmigoManager";
+			};
+			name = Debug;
+		};
+		B3BF52CB1B6FCF0500F4B497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmigoManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmigoManager.app/AmigoManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3BF529E1B6FCF0500F4B497 /* Build configuration list for PBXProject "AmigoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BF52C41B6FCF0500F4B497 /* Debug */,
+				B3BF52C51B6FCF0500F4B497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3BF52C61B6FCF0500F4B497 /* Build configuration list for PBXNativeTarget "AmigoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BF52C71B6FCF0500F4B497 /* Debug */,
+				B3BF52C81B6FCF0500F4B497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3BF52C91B6FCF0500F4B497 /* Build configuration list for PBXNativeTarget "AmigoManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BF52CA1B6FCF0500F4B497 /* Debug */,
+				B3BF52CB1B6FCF0500F4B497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3BF529B1B6FCF0500F4B497 /* Project object */;
+}
